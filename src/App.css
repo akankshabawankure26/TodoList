@@ -1,0 +1,95 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.add-todo {
+  margin: 20px;
+}
+
+.add-todo input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.add-todo button {
+  width: 100px;
+  padding: 10px;
+}
+
+.todo-item button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f4f4f4; /* Optional: Light background */
+}
+
+.todo-list {
+  width: 80%;
+  max-width: 300px; /* Optional: Limit the width */
+  margin: 0 auto; /* Center horizontally */
+  padding: 0;
+  list-style: none;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.todo-item button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.todo-item .edit-mode {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-item .edit-mode input {
+  padding: 5px;
+  width: 50%;
+}
+
+.todo-item .edit-mode button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.todo-item .view-mode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.check-box{
+  margin-right: 30px;
+}
